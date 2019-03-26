@@ -1,0 +1,88 @@
+.Btnfunc{
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+
+}
+.title{
+  font-size:25px;
+  letter-spacing: 1px;
+}
+.explanation{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.explanation-div{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+
+}
+.table4_12 table {
+  width:100%;
+  margin:15px 0;
+
+
+}
+.table4_12 th {
+  font-size:17px;
+  background-color:#50C2FF;
+  color:#FFFFFF;
+
+}
+.table4_12,.table4_12 th,.table4_12 td {
+
+  text-align:center;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-collapse:collapse;
+}
+.table4_12 th,.table4_12 td {
+  border: 1px solid #9bdcfe;
+  border-width:1px 0 1px 0
+}
+.table4_12 tr {
+  border: 1px solid #9bdcfe;
+  margin: 2px;
+}
+.App {
+  display: flex;
+  /*实现水平居中*/
+  align-items: center;
+  margin-top: 1%;
+  flex-direction: column;
+  margin-bottom: 4%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
